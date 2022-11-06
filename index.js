@@ -30,7 +30,7 @@ document.querySelector("#pedido-formulario").addEventListener("submit", (e)=>{
     const fullName = document.querySelector("#fullName").value;
     const store = document.querySelector("#store").value;
     const money = document.querySelector("#money").value;
-
+ 
     //Validador informacion
     if(pedidoWoo == "" || fullName == "" || store== "" || money== ""){
         showAlert("Hacen falta datos del pedido. Por favor completa la información faltante", "danger");
